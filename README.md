@@ -1,6 +1,6 @@
 ## Pygame-Helper-Class
 
-Classes help you make game with pygame.
+Classes help you make game with pygame. They are individual but unique and helpful. Specific feature can be done by a class or a file. It's convenient to import in your project.
 
 ## Manual
 
