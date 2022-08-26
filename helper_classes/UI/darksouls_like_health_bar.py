@@ -21,16 +21,7 @@ class UI:
         # drawing the bar
         pygame.draw.rect(screen, color, current_rect)
         pygame.draw.rect(screen, UI_BORDER_COLOR, bg_rect, 3)
-
-    def selection_box(self, left, top, has_switched):
-        bg_rect = pygame.Rect(left, top, ITEM_BOX_SIZE, ITEM_BOX_SIZE)
-        pygame.draw.rect(screen, UI_BG_COLOR, bg_rect)
-        if has_switched:
-            pygame.draw.rect(screen, UI_BORDER_COLOR_ACTIVE, bg_rect, 3)
-        else:
-            pygame.draw.rect(screen, UI_BORDER_COLOR, bg_rect, 3)
-        return bg_rect
-
+        
     def advanced_health(self, player):
         transition_width = 0
         transition_color = (255, 0, 0)
