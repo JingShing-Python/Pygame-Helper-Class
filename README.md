@@ -10,6 +10,4 @@ There are UI, camera, shader class in folder.
 
 more info about shader can see these
 
-* [Pyopengl]: https://github.com/JingShing/Pyopengl_shader_class
-
-  
+* [Pyopengl shader class](https://github.com/JingShing/Pyopengl_shader_class)
